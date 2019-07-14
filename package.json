@@ -1,5 +1,5 @@
 {
-  "name": "@groceristar/staticdata-gs-graphql-backend",
+  "name": "@groceristar/json-file-schema-validator",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
