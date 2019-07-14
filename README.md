@@ -9,6 +9,6 @@ We have a few files, stored at https://github.com/ChickenKyiv/awesome-food-db-st
 
 
 
-https://github.com/jest-community/awesome-jest
-https://github.com/JamieMason/expect-more/tree/master/packages/expect-more-jest
-https://github.com/ChickenKyiv/awesome-food-db-strucutures/tree/master/FAO
+- https://github.com/jest-community/awesome-jest
+- https://github.com/JamieMason/expect-more/tree/master/packages/expect-more-jest
+- https://github.com/ChickenKyiv/awesome-food-db-strucutures/tree/master/FAO
