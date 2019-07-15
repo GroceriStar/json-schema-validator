@@ -1,4 +1,11 @@
 /* global describe, it, expect */
+
+const { matchers } = require('jest-json-schema')
+expect.extend(matchers)
+
+const { schema, example } = require('./examples/allergy')
+
+
 const jsonFileNotEmptyTest = (file) => {
   describe(`tests for ${file}`, () => {
     it(`${file} data files returns array`, () => {
@@ -15,6 +22,18 @@ const jsonSchemaTest = (file, example, schema) => {
     })
   })
 }
+
+
+// try {
+//   describe('tests for attribute schema', () => {
+//     it('validates allergy json', () => {
+//       expect(example).toMatchSchema(schema)
+//     })
+//   })
+// } catch (e) {
+//   console.log(`${e.name}: ${e.message}`)
+// }
+
 
 module.exports = {
   jsonFileNotEmptyTest,
