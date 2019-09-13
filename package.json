@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/json-file-schema-validator",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "scripts": {
     "bundle": "rollup -c",

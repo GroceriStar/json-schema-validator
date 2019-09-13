@@ -1,4 +1,4 @@
-const { matchers } = require('jest-json-schema');
+import { matchers } from 'jest-json-schema';
 
 expect.extend(matchers);
 
@@ -30,7 +30,7 @@ const jsonSchemaTest = (file, example, schema) => {
 //   console.log(`${e.name}: ${e.message}`)
 // }
 
-module.exports = {
+export default {
   jsonFileNotEmptyTest,
   jsonSchemaTest,
 };
