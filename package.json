@@ -5,7 +5,8 @@
   "scripts": {
     "bundle": "rollup -c",
     "dev": "rollup -c -w",
-    "build": "npm run clean && npm run bundle",
+    "build": "npm run clean && yarn lint && npm run bundle",
+    "build:babel": "yarn clean && yarn lint && babel src -d dist",
     "#prepare": "yarn clean",
     "clean": "shx rm -rf ./coverage && shx rm -rf ./dist",
     "prepublish": "yarn clean && yarn code-fix && yarn build",
@@ -14,8 +15,7 @@
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
     "format": "prettier",
-    "generate": "xxx",
-    "code-fix": "echo 'code-fix me'"
+    "lint": "eslint ./src --fix --ignore-pattern \"./package.json\" "  
   },
   "description": "this module will have set of default tests for JSON files that we have",
   "main": "dist/index.cjs",

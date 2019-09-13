@@ -1,28 +1,29 @@
 /* global describe, it, expect */
 
-const { matchers } = require('jest-json-schema')
-expect.extend(matchers)
+const { matchers } = require('jest-json-schema');
 
-const { schema, example } = require('../tests/examples/allergy')
+expect.extend(matchers);
+
+const { schema, example } = require('../tests/examples/allergy');
 
 
 const jsonFileNotEmptyTest = (file) => {
   describe(`tests for ${file}`, () => {
     it(`${file} data files returns array`, () => {
-      expect(file).not.toBe('')
-    })
-  })
-}
+      expect(file).not.toBe('');
+    });
+  });
+};
 
-//@TODO rename it later
+// @TODO rename it later
 // uncomment when we'll figure out how to get data from sd repository
 const jsonSchemaTest = (file, example, schema) => {
   describe(`test ${file} json schema`, () => {
     it(`validates ${file} json-schema`, () => {
-      expect(example).toMatchSchema(schema)
-    })
-  })
-}
+      expect(example).toMatchSchema(schema);
+    });
+  });
+};
 
 
 // try {
@@ -38,5 +39,5 @@ const jsonSchemaTest = (file, example, schema) => {
 
 module.exports = {
   jsonFileNotEmptyTest,
-  jsonSchemaTest
-}
+  jsonSchemaTest,
+};
