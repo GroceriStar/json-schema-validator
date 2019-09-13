@@ -3,7 +3,7 @@
 const { matchers } = require('jest-json-schema')
 expect.extend(matchers)
 
-const { schema, example } = require('./examples/allergy')
+// const { schema, example } = require('./examples/allergy')
 
 
 const jsonFileNotEmptyTest = (file) => {
@@ -15,13 +15,14 @@ const jsonFileNotEmptyTest = (file) => {
 }
 
 //@TODO rename it later
-const jsonSchemaTest = (file, example, schema) => {
-  describe(`test ${file} json schema`, () => {
-    it(`validates ${file} json-schema`, () => {
-      expect(example).toMatchSchema(schema)
-    })
-  })
-}
+// uncomment when we'll figure out how to get data from sd repository
+// const jsonSchemaTest = (file, example, schema) => {
+//   describe(`test ${file} json schema`, () => {
+//     it(`validates ${file} json-schema`, () => {
+//       expect(example).toMatchSchema(schema)
+//     })
+//   })
+// }
 
 
 // try {
