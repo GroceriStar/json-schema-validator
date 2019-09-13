@@ -64,19 +64,7 @@ export default {
       // plugins: plugins
     }),
 
-    // Allow Rollup to import data from JSON file
-    // json()
-    json({
-      include: 'src/data/**',
 
-      // for tree-shaking, properties will be declared as
-      // variables, using either `var` or `const`
-      preferConst: true,
-
-      // generate a named export for every property of the JSON object
-      namedExports: true // Default: true
-
-    }),
 
     // juck fix in order to move json files to npm
     // copy({
@@ -91,20 +79,3 @@ export default {
     notify()
 
   ],
-
-  // output configuration
-  output: [{
-    file: pkg.main,
-    format: 'cjs'
-  }, {
-    file: pkg.module,
-    format: 'es'
-  }, {
-    file: pkg.browser,
-    format: 'iife',
-    name
-
-    // https://rollupjs.org/guide/en#output-globals-g-globals
-    // globals: {}
-  }]
-}
