@@ -1,10 +1,6 @@
-/* global describe, it, expect */
-
 const { matchers } = require('jest-json-schema');
 
 expect.extend(matchers);
-
-const { schema, example } = require('../tests/examples/allergy');
 
 
 const jsonFileNotEmptyTest = (file) => {
