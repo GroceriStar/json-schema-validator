@@ -14,7 +14,8 @@
     "test:watch": "jest --watch",
     "test:cover": "jest --coverage",
     "jsonlint": "node jsonlint.config.js",
-    "format": "prettier",
+    "format": "prettier ./src/** --write",
+    "formato": "pretty-quick --staged",
     "lint": "eslint ./src --fix --ignore-pattern \"./package.json\" "
   },
   "description": "this module will have set of default tests for JSON files that we have",

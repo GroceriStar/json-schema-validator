@@ -2,8 +2,7 @@ const { matchers } = require('jest-json-schema');
 
 expect.extend(matchers);
 
-
-const jsonFileNotEmptyTest = (file) => {
+const jsonFileNotEmptyTest = file => {
   describe(`tests for ${file}`, () => {
     it(`${file} data files returns array`, () => {
       expect(file).not.toBe('');
@@ -21,7 +20,6 @@ const jsonSchemaTest = (file, example, schema) => {
   });
 };
 
-
 // try {
 //   describe('tests for attribute schema', () => {
 //     it('validates allergy json', () => {
@@ -32,8 +30,7 @@ const jsonSchemaTest = (file, example, schema) => {
 //   console.log(`${e.name}: ${e.message}`)
 // }
 
-
 module.exports = {
   jsonFileNotEmptyTest,
-  jsonSchemaTest,
+  jsonSchemaTest
 };
