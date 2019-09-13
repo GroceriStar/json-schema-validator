@@ -9,6 +9,10 @@ We have a few files, stored at https://github.com/ChickenKyiv/awesome-food-db-st
 - [ ] make it work
 - [ ] update structure for data and raw folders
 - [ ] update readme file
+- [ ] shelljs or shx?
+- [ ] make jsonlint script works
+- [ ] remove duplicated data from sd repository
+- [ ] make it work inside of sd repository and also maybe at generator or at csv-parser
 
 
 - https://github.com/jest-community/awesome-jest
