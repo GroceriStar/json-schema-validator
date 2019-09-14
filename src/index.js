@@ -1,6 +1,5 @@
 import { matchers } from 'jest-json-schema';
 // import { check, validate } from './jsonlintShell';
-
 import shell from 'shelljs';
 import _ from 'lodash';
 
@@ -27,16 +26,6 @@ const jsonSchemaTest = (file, example, schema) => {
     console.log(`${e.name}: ${e.message}`);
   }
 };
-
-// try {
-//   describe('tests for attribute schema', () => {
-//     it('validates allergy json', () => {
-//       expect(example).toMatchSchema(schema)
-//     })
-//   })
-// } catch (e) {
-//   console.log(`${e.name}: ${e.message}`)
-// }
 
 // --- JSONLint part ---
 //    "jsonlint": "node jsonlint.config.js",
