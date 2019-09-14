@@ -13,6 +13,7 @@ We have a few files, stored at https://github.com/ChickenKyiv/awesome-food-db-st
 - [ ] make jsonlint script works
 - [ ] remove duplicated data from sd repository
 - [ ] make it work inside of sd repository and also maybe at generator or at csv-parser
+- [ ] separate methods for jsonlint into separated file. before it failed for some reasons... and for quick turnaroun i decide to put everything inside src/index
 
 
 - https://github.com/jest-community/awesome-jest
