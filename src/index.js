@@ -1,5 +1,5 @@
 import { matchers } from 'jest-json-schema';
-
+import { check, validate } from './jsonlintShell'
 expect.extend(matchers);
 
 const jsonFileNotEmptyTest = (file) => {
@@ -29,6 +29,9 @@ const jsonSchemaTest = (file, example, schema) => {
 // } catch (e) {
 //   console.log(`${e.name}: ${e.message}`)
 // }
+
+//    "jsonlint": "node jsonlint.config.js",
+
 
 export default {
   jsonFileNotEmptyTest,
