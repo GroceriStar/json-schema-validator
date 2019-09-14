@@ -57,7 +57,6 @@
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-notify": "1.1.0",
     "rollup-plugin-replace": "2.2.0",
-    "shelljs": "0.8.3",
     "shx": "0.3.2"
   },
   "peerDependencies": {},
@@ -68,6 +67,7 @@
     "jest-json-schema": "2.0.2",
     "lodash": "^4.17.11",
     "path": "^0.12.7",
+    "shelljs": "0.8.3",
     "uuid": "^3.3.2"
   },
   "files": [
