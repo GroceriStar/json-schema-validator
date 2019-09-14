@@ -28,7 +28,6 @@ const jsonSchemaTest = (file, example, schema) => {
   }
 };
 
-
 // try {
 //   describe('tests for attribute schema', () => {
 //     it('validates allergy json', () => {
@@ -78,7 +77,6 @@ const check = (jsonFiles) => {
     }
   });
 };
-
 
 export default {
   jsonFileNotEmptyTest,

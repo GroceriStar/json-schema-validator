@@ -39,7 +39,7 @@ const check = (jsonFiles) => {
   });
 };
 
-
 export default {
-  validate, check,
+  validate,
+  check,
 };
