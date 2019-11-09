@@ -45,7 +45,7 @@
     "jsonlint": "1.6.3",
     "lint-staged": "9.4.2",
     "prettier": "1.19.1",
-    "pretty-quick": "2.0.0",
+    "pretty-quick": "2.0.1",
     "regenerator-runtime": "0.13.3",
     "rollup": "1.26.3",
     "rollup-plugin-babel": "4.3.3",
