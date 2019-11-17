@@ -1,18 +1,18 @@
 // at this file we'll run nodejs command
-var shell = require('shelljs')
-const _ = require('lodash')
+const shell = require('shelljs');
+const _ = require('lodash');
 
 // @TODO add here all new generated at generator files too
 // @TODO looks like jsonlint doesnt called without build... strange
-const jsonFiles = require('./src/files.js')
+const jsonFiles = require('./src/files.js');
 
 // each can be used instead of forEach
 // @TODO replace with lodash
-_.forEach(Object.keys(jsonFiles), function (key) {
+_.forEach(Object.keys(jsonFiles), (key) => {
   try {
-    shell.exec('jsonlint ' + jsonFiles[key], { silent: true })
+    shell.exec(`jsonlint ${jsonFiles[key]}`, { silent: true });
   } catch (e) {
-    console.log(e)
+    console.log(e);
   }
 
   // // Run external tool synchronously
@@ -20,14 +20,14 @@ _.forEach(Object.keys(jsonFiles), function (key) {
   //   shell.echo('Error: Git commit failed');
   //   shell.exit(1);
   // }
-})
+});
 
 // Check if path exist
 // @TODO lodash
-Object.keys(jsonFiles).forEach(function (key) {
+Object.keys(jsonFiles).forEach((key) => {
   if (shell.test('-e', jsonFiles[key])) {
     // console.log("File exist " + jsonFiles[key]);
   } else {
     // console.log("File doesn't exist " + jsonFiles[key]);
   }
-})
+});

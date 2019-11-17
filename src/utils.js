@@ -2,6 +2,11 @@
 import shell from 'shelljs';
 import _ from 'lodash';
 
+
+// --- JSONLint part ---
+//    "jsonlint": "node jsonlint.config.js",
+
+
 // @TODO add here all new generated at generator files too
 // @TODO looks like jsonlint doesnt called without build... strange
 // @TODO this is a line from an old version of project
@@ -29,17 +34,19 @@ const validate = (jsonFiles) => {
 
 // checking if JSON files exists
 // @TODO lodash
+// can be updated method of output information.
+// like replacing console.log with something else.
 const check = (jsonFiles) => {
   Object.keys(jsonFiles).forEach((key) => {
     if (shell.test('-e', jsonFiles[key])) {
-      // console.log("File exist " + jsonFiles[key]);
+      console.log(`File exist ${jsonFiles[key]}`);
     } else {
-      // console.log("File doesn't exist " + jsonFiles[key]);
+      console.log(`File doesn't exist ${jsonFiles[key]}`);
     }
   });
 };
 
-export default {
+export {
   validate,
   check,
 };

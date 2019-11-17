@@ -23,7 +23,7 @@
 // }
 
 module.exports = {
-  '**/*.+(js)': [
+  '*/src/*.+(js)': [
     //   'eslint --fix',
     //   'prettier --write',
     //   'jest --findRelatedTests',
