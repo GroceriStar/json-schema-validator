@@ -3,6 +3,8 @@ import {
   jsonSchemaTest
 } from '@groceristar/json-file-schema-validator';
 
-// import {
-//
-// } from '@groceristar/sd-wrapper'
+import {
+  allergies
+} from '@groceristar/sd-wrapper'
+
+console.log(allergies)

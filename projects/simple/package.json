@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
-  "scripts": {
+  "scripts": {    
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@groceristar/json-file-schema-validator": "^0.0.5"
+    "@groceristar/json-file-schema-validator": "^0.0.5",
+    "@groceristar/sd-wrapper": "^4.14.4"
   }
 }
