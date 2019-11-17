@@ -10,4 +10,4 @@ import {
 console.log(allergies)
 
 
-// npx babel src/index.js
+// 
