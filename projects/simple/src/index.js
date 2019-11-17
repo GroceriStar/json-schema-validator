@@ -8,3 +8,6 @@ import {
 } from '@groceristar/sd-wrapper'
 
 console.log(allergies)
+
+
+// npx babel src/index.js
