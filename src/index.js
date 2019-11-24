@@ -6,6 +6,8 @@ import { expect } from './jest';
 import { check, validate } from './utils';
 
 
+console.log(expect);
+
 expect.extend(matchers);
 
 const jsonFileNotEmptyTest = (file) => {

@@ -796,10 +796,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@groceristar/json-file-schema-validator@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.yarnpkg.com/@groceristar/json-file-schema-validator/-/json-file-schema-validator-0.0.7.tgz#5526dbbc799d061419fc94dc2d4cf0f249f1b1b4"
-  integrity sha512-JZw87OWifTQT5K9HiPWpbnDlgYkLXUW7IR6yx6Qa9fefelvGJO0J17b/Biu8G/nsRwuDdZDz3uY+G0RRZF73rQ==
+"@groceristar/json-file-schema-validator@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@groceristar/json-file-schema-validator/-/json-file-schema-validator-0.0.8.tgz#58563fc39eb14b86a03d2edca0e9dadf9c6690e0"
+  integrity sha512-gPyflJ47j0JFAOhguSuTwm7CtevHRThHcJYiY5q5dugqEHYYr2AE4zKaV7IV6HdXAzdu7/4p9Y4cW1KJilvGfg==
   dependencies:
     jest-json-schema "2.1.0"
     lodash "^4.17.11"
