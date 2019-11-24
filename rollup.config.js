@@ -28,7 +28,8 @@ const external = [
   'path',
   'lodash',
   'jest-json-schema',
-  'shelljs'
+  'shelljs',
+  'jest'
 ];
 
 // list of plugins used during building process

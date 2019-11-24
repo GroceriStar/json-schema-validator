@@ -1,3 +1,5 @@
+import jest, { expect, test } from 'jest';
+
 import {
   jsonFileNotEmptyTest,
   jsonSchemaTest

@@ -9,5 +9,8 @@ module.exports = {
     '/dist/'
   ],
   moduleDirectories: ['node_modules'],
-  transformIgnorePatterns: ['<rootDir>/node_modules/']
+  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+  moduleNameMapper: {
+    '^jest$': '<rootDir>/src/jest.js'
+  }
 }
