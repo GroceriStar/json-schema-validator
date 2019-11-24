@@ -1,4 +1,6 @@
 import { matchers } from 'jest-json-schema';
+import { expect } from './jest';
+// import jest, { expect, test } from 'jest';
 // import shell from 'shelljs';
 // import _ from 'lodash';
 import { check, validate } from './utils';
@@ -33,4 +35,6 @@ export {
   jsonSchemaTest,
   validate,
   check,
+//     expect,
+//    test
 };

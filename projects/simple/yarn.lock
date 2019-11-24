@@ -796,12 +796,12 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@groceristar/json-file-schema-validator@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@groceristar/json-file-schema-validator/-/json-file-schema-validator-0.0.5.tgz#fb9966170c997cd442590d4a89a397ffb90a17ca"
-  integrity sha512-OxqSxC854VSAkBLo8/xfTQzUhNhTSbYt9ywyYAopvJiP28ODP/r/mByBdup/gOTe0m2/NsVb19+JYupxP0uqVA==
+"@groceristar/json-file-schema-validator@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@groceristar/json-file-schema-validator/-/json-file-schema-validator-0.0.7.tgz#5526dbbc799d061419fc94dc2d4cf0f249f1b1b4"
+  integrity sha512-JZw87OWifTQT5K9HiPWpbnDlgYkLXUW7IR6yx6Qa9fefelvGJO0J17b/Biu8G/nsRwuDdZDz3uY+G0RRZF73rQ==
   dependencies:
-    jest-json-schema "2.0.2"
+    jest-json-schema "2.1.0"
     lodash "^4.17.11"
     path "^0.12.7"
     shelljs "0.8.3"
@@ -1290,7 +1290,7 @@ agent-base@~4.2.1:
   dependencies:
     es6-promisify "^5.0.0"
 
-ajv@^6.5.2, ajv@^6.5.5:
+ajv@^6.10.2, ajv@^6.5.5:
   version "6.10.2"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.10.2.tgz#d3cea04d6b017b2894ad69040fec8b623eb4bd52"
   integrity sha512-TXtUUEYHuaTEbLZWIKUr5pmBuhDLy+8KYtPYdcV8qC+pOZL+NKqYwvWSRrVXHn+ZmRRAu8vJTAznH7Oag6RVRw==
@@ -3458,12 +3458,12 @@ jest-jasmine2@^24.9.0:
     pretty-format "^24.9.0"
     throat "^4.0.0"
 
-jest-json-schema@2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/jest-json-schema/-/jest-json-schema-2.0.2.tgz#f829089e0fb42deecaeb1770f4e83a8fb3404a2f"
-  integrity sha512-IixcmM2rsw6AlXtQnJZcQXcShQiCE27XSyjN/HjNrpxTdmjaoiMNGtZ03IeZ3cnBunEl3Gdz9uZM18NdNjyaXA==
+jest-json-schema@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/jest-json-schema/-/jest-json-schema-2.1.0.tgz#e63fa6819620cee1985c36379acca09891511307"
+  integrity sha512-FaXuFj6Rak1OnV+cfQsD8YnfyfEJ/DeGbomRnmNRO0HeyCpqLsDkC0Lr6z0hXK4/d7Ekz1mqBewVJpcYQ6H89w==
   dependencies:
-    ajv "^6.5.2"
+    ajv "^6.10.2"
     chalk "^2.4.1"
     jest-matcher-utils "^24.0.0"
 

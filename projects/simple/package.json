@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.7.0",
-    "@groceristar/json-file-schema-validator": "^0.0.5",
+    "@groceristar/json-file-schema-validator": "^0.0.7",
     "@groceristar/sd-wrapper": "^4.14.4",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0"
