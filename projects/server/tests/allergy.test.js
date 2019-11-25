@@ -1,25 +1,25 @@
 /* global describe, it, expect */
-'use strict'
-const { matchers } = require('jest-json-schema')
-expect.extend(matchers)
-const { schema, example } = require('./examples/allergy')
+"use strict";
 
+import { filesObjects } from "@utils";
+import { matchers } from "jest-json-schema";
+import { schema, example } from "./examples/allergy";
+const { allergies } = filesObjects;
 
-const staticData = require('@filesObjects')
-// const allergies = require(allergiesFilePath)
+expect.extend(matchers);
 
-describe('tests for allergy', () => {
-  it('allergies data files returns array', () => {
-    expect(staticData.allergies).not.toBe('')
-  })
-})
+describe("tests for allergy", () => {
+  it("allergies data files returns array", () => {
+    expect(allergies).not.toBe("");
+  });
+});
 
 try {
-  describe('tests for allergy schema', () => {
-    it('validates allergy json', () => {
-      expect(example).toMatchSchema(schema)
-    })
-  })
+  describe("tests for allergy schema", () => {
+    it("validates allergy json", () => {
+      expect(example).toMatchSchema(schema);
+    });
+  });
 } catch (e) {
-  console.log(`${e.name}: ${e.message}`)
+  console.log(`${e.name}: ${e.message}`);
 }
