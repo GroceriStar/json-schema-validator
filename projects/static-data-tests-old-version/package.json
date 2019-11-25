@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@groceristar/json-file-schema-validator": "^0.0.5",
+    "@groceristar/json-file-schema-validator": "^0.0.8",
     "@groceristar/sd-wrapper": "^4.14.3"
   }
 }
