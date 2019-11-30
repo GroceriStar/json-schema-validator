@@ -1,17 +1,17 @@
 // import { jsonFileNotEmptyTest, jsonSchemaTest } from '@groceristar/json-file-schema-validator'
 
-
 // call all the required packages
 const express = require('express')
-const bodyParser= require('body-parser')
+const bodyParser = require('body-parser')
 // const multer = require('multer');
-app.use(bodyParser.urlencoded({extended: true}))
+
  
 const app = express()
  
 //CREATE EXPRESS APP
 const app = express();
- 
+
+app.use(bodyParser.urlencoded({extended: true})) 
 //ROUTES WILL GO HERE
 app.get('/', function(req, res) {
     res.json({ message: 'WELCOME' });   
