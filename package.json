@@ -67,7 +67,7 @@
     "jest-json-schema": "2.1.0",
     "lodash": "^4.17.11",
     "path": "^0.12.7",
-    "shelljs": "0.8.3"
+    "shelljs": "0.8.4"
   },
   "files": [
     "dist"
