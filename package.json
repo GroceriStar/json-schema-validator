@@ -64,7 +64,7 @@
     "access": "public"
   },
   "dependencies": {
-    "jest-json-schema": "5.0.0",
+    "jest-json-schema": "6.1.0",
     "lodash": "^4.17.11",
     "path": "^0.12.7",
     "shelljs": "0.8.5"
